@@ -8,4 +8,4 @@ addEventListener('wheel', (event) => {
   newEvent.originalTarget = event.target
 
   keyupEditAttention(newEvent);
-});
+}, { passive: false });
